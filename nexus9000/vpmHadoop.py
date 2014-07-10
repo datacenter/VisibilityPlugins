@@ -138,3 +138,4 @@ if len(sys.argv) > 1:
          server_ip=print_port_info(cluster,sys.argv[2])
          if server_ip <> "NA":
             print_app_info()
+

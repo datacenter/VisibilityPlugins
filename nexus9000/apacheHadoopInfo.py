@@ -88,3 +88,4 @@ def get_app_stat_info(server_ip=[]):
       return 
    req = urllib2.Request("http://" + server_ip + ":8088/ws/v1/cluster/appstatistics?states=accepted,running,finished&applicationTypes=mapreduce")
    return json.loads(urllib2.urlopen(req).read())
+

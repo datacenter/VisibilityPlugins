@@ -90,3 +90,4 @@ def get_cdp_neighbor_info(port_list=[]):
             cdp_list += "}"
    cdp_list += "]}"
    return json.loads(cdp_list)
+

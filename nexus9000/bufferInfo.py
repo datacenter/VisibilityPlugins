@@ -57,3 +57,4 @@ def get_buffer_info(portList = []):
 
    buffer_used=buffer_used + "]}"
    return json.loads(buffer_used)
+
